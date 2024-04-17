@@ -1,0 +1,8 @@
+.TopContainer{
+    background: url(../../pic/1709781055281-01.jpeg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 100px 0 0 2000px  rgba(0, 0, 0, 0);
+}

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&display=swap');
+
+
+
+.Contact{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    margin: 200px 0 100px;
+    align-items: center;
+}
+
+.contact__container{
+    border: 1px solid white;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.contact__container > p{
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 30px;
+    font-family: 'Caveat', sans-serif;
+    font-weight: 300;
+
+}
+
+.contact__container>  p > span{
+color:green;
+font-family: 'Dancing Script', sans-serif;
+font-weight: 300;
+}
+
+.contact__icon > a > button > span > .MuiSvgIcon-root{
+color: white;
+font-size: 30px;
+}
+
+.contact__icon > a > .MuiconButton-root{
+    color: white !important;
+}

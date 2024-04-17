@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&display=swap');
+
+
+
+
+.skillcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px 0;
+}
+
+.skillcontainer__text{
+    color: white;
+    flex:2;
+    text-align: left;
+    max-width: 500px;
+    margin-bottom: 20px;
+    position: relative;
+    
+}
+
+.skillcontainer__text > h2 {
+    font-size: 30px;
+
+}
+
+.skillContainer__image {
+    flex: 0.4;
+    text-align: center;
+    margin-right: 100px;
+    }
+    
+    .skillContainer__image > img{
+        width: 500px;
+        border-radius: 3px;
+        object-fit: contain;
+    }
+
+.skillcontainer__skillset > h5{
+    font-family: 'Dancing Script',sans-serif;
+    font-weight: 300;
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+
+.skillcontainer__slider > .MuiLinearProgress-root{
+    background-color: gray;
+
+}
+
+
+.skillcontainer__slider1 > div >.MuiLinearProgress-barColorPrimary{
+    background-color: greenyellow;
+}
+.skillcontainer__slider2 > div >.MuiLinearProgress-barColorPrimary{
+    background-color: rgb(3, 83, 121);
+}
+.skillcontainer__slider3 > div >.MuiLinearProgress-barColorPrimary{
+    background-color: rgb(77, 6, 59);
+}
+.skillcontainer__slider4 > div >.MuiLinearProgress-barColorPrimary{
+    background-color: rgb(133, 109, 5);
+}
+.skillcontainer__slider5 > div >.MuiLinearProgress-barColorPrimary{
+    background-color: rgb(190, 71, 15);
+}
+.skillcontainer__slider6 > div >.MuiLinearProgress-barColorPrimary{
+    background-color: rgb(27, 202, 188);
+}
+
+
